@@ -4,6 +4,10 @@
 body{
     background-color: black;
 }
+.flex{
+    display: flex;
+    justify-content: center;
+}
 .nav_menu{
     font-size: 20px;
     margin: 10px 20px 0 0;
@@ -53,14 +57,13 @@ body{
 
 /*foler Sections*/
 
-.container{
-    display: flex;
-    justify-content: center;
-}
+
 .folder{
     height: 500px;
     margin: 20px;
     width: auto;
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (max-width: 600px) {
   .folder{
