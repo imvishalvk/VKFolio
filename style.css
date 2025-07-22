@@ -59,12 +59,17 @@ body{
 
 
 .folder{
-    height: 500px;
-    margin: 20px;
+    height: 450px;
+    margin: 50px;
     width: auto;
     display: flex;
     justify-content: center;
+    transition: 0.3s ease-in-out;
 }
+.folder:hover{
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 600px) {
   .folder{
     height: auto;
