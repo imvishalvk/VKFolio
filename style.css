@@ -44,6 +44,12 @@ body{
     height: auto;
     width: 80%;
 }
+@media screen and (max-width: 600px) {
+    .hero_text{
+        font-size: 1.5rem;
+    }
+    
+}
 
 /*foler Sections*/
 
