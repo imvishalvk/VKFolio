@@ -77,3 +77,59 @@ body{
     width: auto;
   }
 }
+
+/*testimonial ribbon*/
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(178, 175, 172);
+    margin: 30px 0 30px 0;
+}
+.test_logo{
+    height: 100px;
+    margin: 20px;
+    background: none;
+}
+
+@media screen and (min-width:600px) {
+    .scrollmenu .testm_logo{
+    display: none;
+    }
+}
+
+/* mobile testimonial ribbon */
+
+.scrollmenu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(178, 175, 172);
+    margin: 10px 0 10px 0;
+    padding: 0 20px 0 20px;
+}
+.testm_logo{
+    height: 60px;
+    margin: 10px;
+    background: none;
+}
+
+@media screen and (max-width:600px) {
+    .testimonials .test_logo{
+    display: none;
+    }
+}
+/* scroll menu */
+.scrollmenu::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
