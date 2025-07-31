@@ -1,5 +1,6 @@
 *{
     background-color: rgb(0, 0, 0);
+    color: whitesmoke;
 }
 body{
     background-color: black;
@@ -133,3 +134,48 @@ div.scrollmenu a {
   text-align: center;
   text-decoration: none;
 }
+
+/* footer section */
+.foot{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* form*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-inputs{
+    height: 30px;
+    width: auto;
+    border: none;
+    padding: 2px;
+}
+.but{
+    height: 30px;
+    width: 90px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.works{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 3px 0 3px 0;
+}
+.social-icons{
+    font-size: 20px;
+}
+.fb .ig .yt .tw :hover{
+    color: red;
+    transform: scale(1.1);   
+}
+.form_hr{
+    width: 70px;
+}
+/*mobile view of footer */
